@@ -30,7 +30,7 @@ if __name__ == '__main__':
     for index, row in data.iterrows():
         curIdx += 1
         print(row['ts_code'], row['symbol'])
-        df = pro.daily(ts_code=row['ts_code'], start_date='20191114', end_date='20191115')
+        df = pro.daily(ts_code=row['ts_code'], start_date='20191118', end_date='20191119')
         #print(df)
         ls = []
         for index2, row2 in df.iterrows():
